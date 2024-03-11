@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+    margin: 10px 0;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+    color: #1D0155;
+}
+.wa, .ph{
+    transition: .2s;
+}
+.wa:hover, .ph:hover{
+    color: #0D6EFD;
+    cursor: pointer;
+}
+.ph{
+    margin-left: 2rem;
+}
+
+.nav-2{
+    background-color: #1D0155;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10rem;
+}
+.nav-2 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: .2s;
+}
+a:hover{
+    color: #bfb4d4;
+}
+.dropbtn {
+    background-color: #1D0155;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    transition: .2s;
+  }
+  .dropdown a{
+    font-size: .9rem;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #d8d7d7}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #1D0155;
+    color: #bfb4d4;
+  }
+.enr-btn{
+    display: flex;
+    justify-content: end;
+}
+.enroll{
+    background-color: white;
+    color: #1D0155;
+    border: 1px solid #1D0155;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 9rem;
+    transition: .2s;
+}
+.enroll:hover{
+    background-color: #1D0155;
+    color: white;
+}
+.slider{
+    display: flex;
+    margin-bottom: 6rem;
+}
+.slider .img{
+    width: 50%;
+}
+.slider .img img{
+    margin-left: 15rem;
+}
+.slider .text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider .text h1{
+    color: #1D0155;
+    font-weight: 100;
+    font-size: 3rem;
+}
+.slider .text p{
+    color: #646464;
+    line-height: 1.6rem;
+    margin-top: 1rem;
+}
+.aboutus{
+    margin-bottom: 5rem;
+}
+.abt-container{
+    display: flex;
+}
+.abt-container .img{
+    width: 40%;
+}
+.abt-container .text{
+    width: 50%;
+}
+.abt-container .text i{
+    color: #0D6EFD;
+}
+.abt-container .img img{
+    margin-left: 8rem;
+}
+.fa-quote-right{
+    float: right;
+}
