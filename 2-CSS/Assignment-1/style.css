@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+/* ########################## UTILITY CLASSES ############################# */
+
+.h1{
+    color: #1D0155;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* ########################## NAVBAR SECTION ############################# */
+
+
 .nav-1{
     display: flex;
     justify-content: space-between;
@@ -91,6 +104,10 @@ a:hover{
     background-color: #1D0155;
     color: #bfb4d4;
   }
+
+/* ########################## SLIDER SECTION ############################# */
+
+
 .enr-btn{
     display: flex;
     justify-content: end;
@@ -105,7 +122,7 @@ a:hover{
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 9rem;
-    transition: .2s;
+    transition: .4s;
 }
 .enroll:hover{
     background-color: #1D0155;
@@ -127,19 +144,19 @@ a:hover{
     flex-direction: column;
     justify-content: center;
 }
-.slider .text h1{
-    color: #1D0155;
-    font-weight: 100;
-    font-size: 3rem;
-}
 .slider .text p{
     color: #646464;
     line-height: 1.6rem;
     margin-top: 1rem;
 }
+
+/* ########################## ABOUT US SECTION ############################# */
+
+
 .aboutus{
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
+
 .abt-container{
     display: flex;
 }
@@ -149,6 +166,11 @@ a:hover{
 .abt-container .text{
     width: 50%;
 }
+.abt-container .text p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    word-spacing: 3px;
+}
 .abt-container .text i{
     color: #0D6EFD;
 }
@@ -157,4 +179,62 @@ a:hover{
 }
 .fa-quote-right{
     float: right;
+}
+
+
+/* ########################## TRAININGS SECTION ############################# */
+
+.trainings{
+    text-align: center;
+}
+.trainings p{
+    margin-top: .8rem;
+    margin-bottom: 4rem;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.card{
+    width: 32%;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    transition: .3s;
+}
+.card:hover{
+    box-shadow: 2px 3px 20px 0px rgba(87, 81, 81, 0.72);
+    transform: scale(1.06);
+    border-radius: 5px;
+    
+}
+.card-head{
+    margin-bottom: 1rem;
+}
+.card-circle{
+    background: #f7c737;
+    width: 6rem;
+    height: 6rem;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    margin-top: 1rem;
+    padding: 20px;
+}
+.card-body h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.card-body p{
+    text-align: justify;
+    line-height: 1.4rem;
 }
