@@ -1,0 +1,96 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+body{
+    background-color: #F0F2F5;
+}
+.container{
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    min-height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card p{
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 15px 0;
+}
+form input{
+    border: 1px solid rgb(208, 205, 205);
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+}
+input::placeholder{
+    color: rgb(153, 153, 153);
+    font-size: 1.8rem;
+}
+#password{
+    margin: 15px 0;
+}
+button{
+    border-radius: 5px;
+    height: 50px;
+    background-color: #0866FF;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #0866FF;
+    font-size: 1.5rem;
+}
+#or{
+    color: gray;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.bt{
+    border: 1px solid rgb(208, 205, 205);
+    width: 100px;
+    background-color: #42B72A;
+    margin: 0;
+    padding: 0;
+}
+.bt p{
+    padding: 0 10px;
+}
+.grp{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn2{
+    border-radius: 5px;
+    height: 50px;
+    background-color: #42B72A;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 10px 15px;
+}
