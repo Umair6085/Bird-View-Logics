@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 11 | Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="screen">
+			<input type="text" id="display" class="display" readonly>
+		</div>
+		<div class="button-row">
+			<button class="button orange" onclick="clearDisplay()">AC</button>
+			<button class="button orange" onclick="clearDisplay()">DEL</button>
+			<button class="button orange" onclick="addOperation('%')">%</button>
+			<button class="button orange" onclick="addOperation('/')">/</button>
+		</div>
+		<div class="button-row">
+			<button class="button" onclick="addDigit(7)">7</button>
+			<button class="button" onclick="addDigit(8)">8</button>
+			<button class="button" onclick="addDigit(9)">9</button>
+			<button class="button orange" onclick="addOperation('*')">*</button>
+		</div>
+		<div class="button-row">
+			<button class="button" onclick="addDigit(4)">4</button>
+			<button class="button" onclick="addDigit(5)">5</button>
+			<button class="button" onclick="addDigit(6)">6</button>
+			<button class="button orange" onclick="addOperation('-')">-</button>
+		</div>
+		<div class="button-row">
+			<button class="button" onclick="addDigit(1)">1</button>
+			<button class="button" onclick="addDigit(2)">2</button>
+			<button class="button" onclick="addDigit(3)">3</button>
+			<button class="button orange" onclick="addOperation('+')">+</button>
+		</div>
+		<div class="button-row">
+			<button class="button" onclick="addDigit('00')">00</button>
+			<button class="button" onclick="addDigit('0')">0</button>
+			<button class="button" onclick="addDecimal()">.</button>
+			<button class="button blue" onclick="calculate()">=</button>
+		</div>
+	</div>
+
+	<!-- <script src="script.js"></script> -->
+	<script src="app.js"></script>
+</body>
+</html>

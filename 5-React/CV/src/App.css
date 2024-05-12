@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header{
+  padding: 40px;
+  padding-left: 13rem;
+  display: flex;
+  gap: 5rem;
+}
+header img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+h1{
+  font-weight: 300;
+}
+h3{
+  font-weight: 300;
+  margin: 0 0 10px 0px;
+}
+
+nav{
+  background-color: rgb(46, 48, 59);
+  padding: 20px;
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+}
+nav p{
+  color: white;
+  display: flex;
+  gap: 0.7rem;
+}
+main{
+  display: flex;
+}
+main .sec1{
+  /* border: 2px solid red; */
+  width: 50%;
+  /* height: 100%; */
+  padding: 2rem;
+}
+main .sec2{
+  /* border: 2px solid green; */
+  width: 50%;
+  /* height: 100%; */
+  padding: 2rem;
+}
+.sec2 .container{
+  margin-bottom: 2rem;
+}
+.container .txtContainer{
+  margin-bottom: 2rem;
+}
+.container .txtContainer .city{
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+.container .txtContainer ul{
+  list-style-type: circle;
+  margin-left: 1rem;
+  font-style: italic;
+  color: rgb(48, 47, 47);
+}
+.colorGray{
+  color: rgb(145, 145, 145);
+}
+.sec2 .container .btn-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.sec2 .container .btn-group .btn{
+  padding: 7px 13px;
+  background-color: rgb(161, 160, 160);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
